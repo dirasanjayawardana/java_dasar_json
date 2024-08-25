@@ -7,16 +7,20 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Date;
 import java.util.List;
 
+// Serialization (mengubah object menjadi format data yang bisa disimpan, seperti JSON, XML, dll)
+// Deserialization (mengubah format data seperti JSON menjadi Object)
+
+
 public class Person {
 
     private String id;
 
     private String name;
 
-    // @JsonProperty("full_name")
+    @JsonProperty("full_name") // mengubah attribute ketika proses serialization dan deserialization
     private String fullName;
 
-    // @JsonIgnore
+    @JsonIgnore // menandai sebuah field yg akan diIgnore saat proses serialization dan deserialization
     private String password;
 
     private List<String> hobbies;
@@ -25,7 +29,7 @@ public class Person {
 
     private Date createdAt;
 
-    // @JsonFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(pattern = "yyyy-MM-dd") // mengubah format data (misal date time) ketika proses serialization dan deserialization
     private Date updatedAt;
 
     public String getFullName() {

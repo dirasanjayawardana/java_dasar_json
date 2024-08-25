@@ -19,3 +19,6 @@ Untuk tipe data lain seperti Date, bisa menggunakan String.
 - test/JsonObjectTest.java
 - test/JsonArrayTest.java
 - test/JavaBeenTest.java
+- test/ConfigurationTest.java
+- test/DateTimeTest.java
+- test/AnnotationTest.java
