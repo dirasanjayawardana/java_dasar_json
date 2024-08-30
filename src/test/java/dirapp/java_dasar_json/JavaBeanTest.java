@@ -63,6 +63,7 @@ public class JavaBeanTest {
 
     ObjectMapper objectMapper = new ObjectMapper();
     Person person = objectMapper.readValue(json, Person.class);
+    // objectMapper.readValue(new File("contohData.json"), new TypeReference<List<Person>>() {});
 
     Assertions.assertEquals("1", person.getId());
     Assertions.assertEquals("Dira", person.getName());
