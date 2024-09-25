@@ -10,7 +10,7 @@ import java.util.List;
 // Serialization (mengubah object menjadi format data yang bisa disimpan, seperti JSON, XML, dll)
 // Deserialization (mengubah format data seperti JSON menjadi Object)
 
-
+// @JsonIgnoreProperties(ignoreUnknown = true) // jika ini true, maka ketika ada field yg tidak ada dari hasil pembacaan JSON, akan otomatis diisikan NULL, dan tidak memunculkan error
 public class Person {
 
     private String id;
