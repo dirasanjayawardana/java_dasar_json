@@ -7,7 +7,6 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.autoconfigure.ssl.SslProperties.Bundles.Watch.File;
 
 import java.util.Map;
 
