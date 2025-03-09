@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.ssl.SslProperties.Bundles.Watch.Fi
 
 import java.util.Map;
 
-public class JsonObjectTest {
+public class BJsonObjectTest {
   // JSON Object adalah data berisikan atribute dan value, di Java mirip dengan Map
   // untuk membuat JSON, bisa dengan membuat Map, lalu gunakan ObjectMapper untuk konversi ke JSON
 

@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-public class JsonArrayTest {
+public class CJsonArrayTest {
   // Untuk representasi JSON array di Java, bisa menggunakan tipe data collection sperti List atau Set
 
   // writeValue(output, object) --> dimana output adalah Writer, File atau OutputStream
