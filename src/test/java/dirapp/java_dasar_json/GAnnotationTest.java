@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class AnnotationTest {
+public class GAnnotationTest {
   // Jackson secara default akan membuat JSON dari Java Class, dari membaca field yang ada
   // Jackson menyediakan beberapa annotasi untuk mengubah behaviour default dari Jackson dengan menamabahkan Annotation pada class Java nya
 

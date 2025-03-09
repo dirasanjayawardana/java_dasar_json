@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-public class ConfigurationTest {
+public class EConfigurationTest {
   // dokumentasi configurasi feature --> https://github.com/FasterXML/jackson-databind/wiki/Mapper-Features
   // cara menggunakannya dengan method --> configure(FeaturNya, true/false)
 

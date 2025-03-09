@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class DateTimeTest {
+public class FDateTimeTest {
   // JSON tidak memiliki tipe data Date Time
   // untuk menampilkan Date Time di JSON, bisa dengan number dalam format millis, atau String misalnya yyyy-MM-dd
   // secara defaut Jackson akan menampilkan Date Time dalam format number (millis)

@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-public class JavaBeanTest {
+public class DJavaBeanTest {
   // class java been (class yang ada getter setter nya)
   // jackson bisa melakukan konversi Object menjadi JSON, dimana attribute JSON nya akan menggunakan nama field class nya
 
